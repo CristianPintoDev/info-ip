@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+</head>
+<body>
+    <main class="container"> 
+        <form id="form">
+            <label>Buscador de IP
+            <input required id="input" type="text" placeholder="Ingrese la IP Aqui"></input>
+            <small>Ejemplo: XXX.XXX.XXX.XXX</small>
+            </label>
+            <button id="submit" type="submit" class="submit">
+                Mostrar informacion de la IP
+            </button>
+        </form>
+        <div>
+            <pre id="resultado">
+
+            </pre>
+        </div>
+    </main>
+    <script type ="module" src="app.js"></script>
+</body>
+
+</html>
