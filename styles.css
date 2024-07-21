@@ -1,0 +1,6 @@
+/* Asegúrate de que el contenedor del mapa tenga el tamaño adecuado */
+#map {
+    height: 300px;
+    width: 100%;
+    margin: 10px 0;
+  }

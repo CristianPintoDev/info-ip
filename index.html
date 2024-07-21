@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <main class="container"> 
@@ -18,13 +19,15 @@
                 Mostrar informacion de la IP
             </button>
         </form>
+        <div id="map"></div>
         <div>
             <pre id="resultado">
 
             </pre>
         </div>
     </main>
-    <script type ="module" src="app.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </body>
 
 </html>
